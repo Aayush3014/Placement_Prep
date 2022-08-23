@@ -5,12 +5,22 @@ public class Type_casting {
         Scanner input = new Scanner(System.in);
         // float num = input.nextFloat();
 
-        // int num = input.nextInt(); // It will Give error if we pass float value in input.
+        // int num = input.nextInt();      // It will Give error if we pass float value in
+                                            // input.
 
         // type Casting
 
-        float num =  67;
-        System.out.println(num);
+        // int num = (int) 67.89f;
+        // System.out.println(num);
+        byte b = 42;
+        char c = 'a';
+        short s = 1024;
+        int i = 50000;
+        float f = 5.67f;
+        double d = 0.1234;
+
+        double result = (f*b) + (i/c) - (d*s);
+        System.out.println(result);
         input.close();
     }
 }
