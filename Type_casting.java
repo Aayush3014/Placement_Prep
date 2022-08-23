@@ -5,8 +5,8 @@ public class Type_casting {
         Scanner input = new Scanner(System.in);
         // float num = input.nextFloat();
 
-        // int num = input.nextInt();      // It will Give error if we pass float value in
-                                            // input.
+        // int num = input.nextInt(); // It will Give error if we pass float value in
+        // input.
 
         // type Casting
 
@@ -19,7 +19,7 @@ public class Type_casting {
         float f = 5.67f;
         double d = 0.1234;
 
-        double result = (f*b) + (i/c) - (d*s);
+        double result = (f * b) + (i / c) - (d * s);
         System.out.println(result);
         input.close();
     }

@@ -1,6 +1,6 @@
 public class Primitives {
     public static void main(String[] args) {
-        int rollno = 65;  // this is a primitive datatype
+        int rollno = 65; // this is a primitive datatype
         float marks = 54.85f;
         char letter = 'k';
         double largedecimalnumber = 54464455451.84548;
@@ -10,7 +10,6 @@ public class Primitives {
         System.out.println(marks);
         System.out.println(letter);
 
-
-        String s = "hello"; //This is not primitive datatype
+        String s = "hello"; // This is not primitive datatype
     }
 }
