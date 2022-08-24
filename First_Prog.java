@@ -8,6 +8,6 @@ public class First_Prog{
         Scanner input = new Scanner(System.in);
         System.out.println(input.next());
         System.out.println(input.nextInt());
-        
+        input.close();
     }
 }
