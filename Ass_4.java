@@ -1,31 +1,27 @@
 // Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 
 import java.util.*;
-public class Ass_4{
+
+public class Ass_4 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int num1 = input.nextInt();
-        int num2 = input.nextInt();
+        Scanner sc = new Scanner(System.in);
+        char opt = sc.next().charAt(0);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result;
 
-        String s = input.nextLine();
-        if(s=="+"){
-            System.out.println(num1+num2);
+        if (opt == '+'){
+            System.out.println(a+b);
         }
-        if(s == "-"){
-            System.out.println(num1-num2);
-
+        else if (opt == '-'){
+            result = a-b;
+            System.out.println(result);
         }
-        if (s=="*"){
-            System.out.println(num1*num2);
+        else if (opt == '/'){
+            System.out.println(a/b);
         }
-        if (s=="/"){
-            System.out.println(num1/num2);
+        else if (opt == '*'){
+            System.out.println(a*b);
         }
-        // else{
-        //     System.out.println("Entered operation is invalid");
-        input.close();
-        }
-    
-    }
-
-// }
+        sc.close();
+    }}
