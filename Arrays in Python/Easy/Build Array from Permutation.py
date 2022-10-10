@@ -1,3 +1,6 @@
+# In this nested elements is applied
+
+
 nums = [0,2,1,5,3,4]
 nums2 = []
 for i in range(len(nums)):
