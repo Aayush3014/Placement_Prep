@@ -1,4 +1,4 @@
-from array import *
+from array import array
 
 vals = array('i',[5,8,9,7,4,0])   # Initializing a new array.
 
