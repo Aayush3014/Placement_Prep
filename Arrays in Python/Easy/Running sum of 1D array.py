@@ -9,7 +9,8 @@ print(ans)
 
 
 # Optimized Logic
-
+# Review this logic as it is not working properly
+ 
 for i in range(1,len(nums)):
     nums[i] += nums[i-1]
 print(nums)
