@@ -1,4 +1,11 @@
+# we are using consecutive addition.
+
+
+
 # My code logic 
+
+
+
 nums = [1, 2, 3, 4]
 ans = []
 sum = 0
