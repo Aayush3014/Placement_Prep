@@ -13,13 +13,3 @@ for i in range(len(new_arr)):
     else:
         new_arr[i] = "false"
 print(new_arr)
-
-    
-#     for j in range(n):
-#         sum += accounts[i][j]
-#     sum_list.append(sum)
-
-# for i in sum_list:
-#     if i>greater:
-#         greater = i
-# print(greater)
