@@ -1,4 +1,4 @@
-
+# Default Solution
 total = "abcdefghijklmnopqrstuvwxyz"
 sentence = "leetcode"
 sentence_list = []
@@ -12,3 +12,15 @@ for j in range(len(total)):
         print(False)
         break
 # print(sentence_list)
+
+
+# Optimized Solutions
+
+class Solution:
+    def checkIfPangram(self, sentence: str) -> bool:
+		# if any alphabet has 0 count in sentence, we return False and True othewise.
+        alpha = "abcdefghijklmnopqrstuvwxyz"
+        for al in alpha:
+            if sentence.count(al)==0:
+                return False
+        return True
