@@ -1,4 +1,4 @@
-def Floor_of_number(arr,n):
+def Floor_of_number(arr,n):     # Floor is greatest number <= target 
     beg = 0
     end = len(arr)-1
     while beg<=end:

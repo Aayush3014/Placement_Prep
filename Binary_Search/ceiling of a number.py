@@ -1,4 +1,4 @@
-def Ceiling_of_number(arr,n):
+def Ceiling_of_number(arr,n):   # Ceiling is smallest number >= target
     beg = 0
     end = len(arr)-1
     while beg<=end:
