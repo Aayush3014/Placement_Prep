@@ -1,4 +1,4 @@
-def binary_search(arr,n):
+def Ceiling_of_number(arr,n):
     beg = 0
     end = len(arr)-1
     while beg<=end:
@@ -13,4 +13,4 @@ def binary_search(arr,n):
 
 a = [2,6,9,58,96]
 n = 90
-print(binary_search(a,n))
+print(Ceiling_of_number(a,n))
