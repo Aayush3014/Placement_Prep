@@ -1,15 +1,14 @@
-letter = [3,6,10]
-target = 1
-beg = 0
-end = len(letter)-1
-ans = 0
+def Ceiling_of_Letter(arr,n):   # Ceiling is smallest number >= target
+    beg = 0
+    end = len(arr)-1
+    while beg<=end:
+        mid = (beg)+(end-beg)//2 
+        if arr[mid]<n:
+            beg = mid+1
+        else:
+            end = mid-1
+    return arr[beg%len(arr)]
 
-while beg<=end:
-    mid = (beg+end)//2
-    if mid == target:
-        ans =  beg+1
-    elif mid > target:
-        beg = mid + 1
-    elif mid<target:
-        end = mid-1
-print(ans)
+a = ['c','f','j']
+n = 'j'
+print(Ceiling_of_Letter(a,n))

@@ -1,4 +1,9 @@
 def Ceiling_of_number(arr,n):   # Ceiling is smallest number >= target
+    
+    # If the target number is greater than the greatest element in the array
+    # then we use 
+    if n>arr[-1]:
+        return -1
     beg = 0
     end = len(arr)-1
     while beg<=end:
@@ -12,5 +17,5 @@ def Ceiling_of_number(arr,n):   # Ceiling is smallest number >= target
     return beg
 
 a = [2,6,9,58,96]
-n = 90
+n = 96
 print(Ceiling_of_number(a,n))
