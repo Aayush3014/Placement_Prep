@@ -9,7 +9,7 @@ def binary_search(arr,n):
             beg = mid+1
         elif arr[mid]>n:
             end = mid-1
-    return end
+    return -1
 
 a = [2,6,9,58,96]
 n = 90
