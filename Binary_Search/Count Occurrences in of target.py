@@ -1,7 +1,7 @@
 # Two binary searches will be used.
 
-nums = [5,5,5,7,7,8,8,10]
-target = 5
+nums = [1,1,1,1,1,0,0,0]
+target = 1
 def binarysearchLeft(arr,n):
     start,end = 0,len(arr)-1
     while start<=end:
